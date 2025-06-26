@@ -1,0 +1,6 @@
+langchain>=0.1.0 
+langchain-community  
+langchain-core 
+playwright
+lxml
+praw

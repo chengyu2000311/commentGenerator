@@ -1,0 +1,28 @@
+```json
+[
+  {
+    "style": "Provocative",
+    "comment": "5% of GDP? Are we preparing for a war, or just enriching defense contractors? ",
+    "image_idea": "A world map with NATO countries highlighted in one color and Russia in another, with a rising graph representing defense spending.",
+    "image_file_path": "./8b096537decf47fdb5a78fb8ea8c1e94.png"
+  },
+  {
+    "style": "Concise & Sharp",
+    "comment": "Trump's NATO pressure: More money, same problems?",
+    "image_idea": "A cartoon drawing of Trump holding a bag of money labeled \"NATO\" and shaking it upside down, with European leaders looking worried.",
+    "image_file_path": "./188d283677b646c4845cb0a8e06696df.png"
+  },
+  {
+    "style": "Witty Joke & Sarcastic",
+    "comment": "NATO's new budget: 5% for defense, 0% for affordable healthcare. Priorities!",
+    "image_idea": "A pie chart showing NATO countries' GDP, with a large slice labeled \"Defense\" and a tiny slice labeled \"Everything Else\".",
+    "image_file_path": "./b9da762c1b44414b8750e84844b6be58.png"
+  },
+  {
+    "style": "Thought-Provoking Question",
+    "comment": "Is increased military spending the only way to ensure peace, or are we missing something?",
+    "image_idea": "A chess board with pieces representing NATO and Russia, with a question mark hanging over the board.",
+    "image_file_path": "./a280c7ebb74440fab6c529beebafa881.png"
+  }
+]
+```

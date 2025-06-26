@@ -1,0 +1,24 @@
+---
+config:
+  layout: dagre
+---
+flowchart TD
+ subgraph Agent_Interaction_Loop["Agent_Interaction_Loop"]
+        M{"PromptTemplate 填充Prompt"}
+        L["Entry"]
+        N{"ChatGoogleGenerativeAI(gemini-2.0-flash) Response"}
+        O["ReActSingleInputOutputParser <br> 解析 Thought/Action"]
+        P{"是否需要调用 Tool?"}
+        Q["调用相应 Tool.run <br> 如 extract_hyperlinks, webBrowsing, reddit_search, generate_image(gemini-2.0-flash-preview-image-generation)"]
+        R["Observation 返回 "]
+        S["最终 Final Answer "]
+  end
+    L --> M
+    M --> N
+    N --> O
+    O --> P
+    P -- 是 --> Q
+    Q --> R
+    R --> O
+    P -- 否 --> S
+    classDef module fill:#f9f,stroke:#333,stroke-width:1px
