@@ -21,4 +21,4 @@ To run the `comment_generator.py` script, follow these steps:
     
 
 ### QA
-    Agent系统设计方案 {https://github.com/chengyu2000311/commentGenerator/blob/main/%E6%96%B0%E9%97%BB%E8%AF%84%E8%AE%BA%20Agent.pdf}
+    [AI Agent系统设计方案](https://github.com/chengyu2000311/commentGenerator/blob/main/%E6%96%B0%E9%97%BB%E8%AF%84%E8%AE%BA%20Agent.pdf)
